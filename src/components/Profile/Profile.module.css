@@ -1,0 +1,37 @@
+.profile{
+
+border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 6px;
+max-width: 300px;
+margin-bottom: 30px;
+}
+.user{
+display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 20px;
+}
+.name, .tag{
+    margin-bottom: 10px;
+}
+.avatar{
+    margin-bottom: 20px;
+    border-radius: 50%;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;}
+.stats{
+    display: flex;
+    background-color: #CFE5FC;
+}
+.stats > li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    width: 100px;
+}
+.label{
+    margin-bottom: 3px;
+    font-weight: 600;
+}

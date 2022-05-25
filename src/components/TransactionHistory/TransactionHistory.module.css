@@ -1,0 +1,20 @@
+.transaction-history{
+    width: 600px;
+    border-collapse: collapse;
+}
+th{
+    padding: 10px;
+    /* border: 1px solid rgba(33, 33, 33, 0.2); */
+    background-color: #AFE1E6;
+}
+td{
+    text-align: center;
+    padding: 10px;
+    /* border: 1px solid rgba(33, 33, 33, 0.2); */
+}
+tr:nth-child(n){
+background-color: #EBFFDC;
+}
+tr:nth-child(2n) {
+    background-color: #C6E6AF;
+}
