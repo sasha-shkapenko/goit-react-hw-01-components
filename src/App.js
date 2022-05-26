@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import user from './user.json';
 import data from './data.json'
